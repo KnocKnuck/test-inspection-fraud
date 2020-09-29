@@ -1,4 +1,4 @@
-setwd("/srv/data/homes/joseph.hani/L3 MIASHS/Statistiques et Applications /TD 2-20171005")
+setwd("_______Your_Path____")
 Vol = read.table("Volumes.csv" , sep="," , dec = ".", header = TRUE)
 head(Vol) 
 
@@ -9,7 +9,7 @@ str(Vol) "Donne toutes les données de la base"
  
 mean(Vol$volume)
 var(Vol$volume)
-"On ne peut pas prendre de décision parce que c'est un échantillon mais quand même c'est un escro,
+"On ne peut pas prendre de décision parce que c'est un échantillon mais quand même, le nombre n'est pas exact et laisse à penser qu'il ne rempli pas toutes ces bouteilles de la même manières,
 il vend des bouteilles de 74 cl"
 
 hist(Vol$volume,freq=FALSE, ylim =c(0,0.40))
@@ -25,10 +25,5 @@ dnorm(x,mean=mu, sd=et)
 lines(x,y, col ='purple')
 
 "8. Modèle Xi ~N(mu, sigma²) avec sigma² connu indépendant"
-
-
-"J'ai plus la fin de l'exercice 1 donc demande la"
-
-"Exercice 2"
 
 
